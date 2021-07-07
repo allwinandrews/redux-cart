@@ -5,7 +5,7 @@ export const fetchCartData = () => {
   return async (dispatch) => {
     const fetchData = async () => {
       const url =
-        "https://react-http-44a66-default-rtdb.firebaseio.com/cart.json";
+        "https://react-http-default-rtdb.firebaseio.com/cart.json";
 
       const response = await fetch(url);
 
